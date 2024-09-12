@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #171a4a;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: #30a775;
+    padding: 1rem 2rem;
+    right: 10px;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.7s;
+    background-color: #377059;
+    font-weight: 500;
+}
+
+.sign-in-btn {
+    background-color: #2f2c79;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.header-banner {
+    text-align: center;
+    background-color: #64c27b;
+    color: white;
+    padding: 2rem 0;
+}
+
+.header-banner h2 {
+    font-size: 2rem;
+}
+
+.header-banner p {
+    margin-top: 0.5rem;
+    color: white;
+}
+
+
+.product-section {
+    padding: 2rem 4rem;
+    justify-content: center;
+}
+
+.product-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid #ddd;
+    justify-content: center;
+}
+
+.product-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.product-details {
+    max-width: 600px;
+}
+
+.product-details h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #2f2c79;
+}
+
+.add-to-cart {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cart-btn {
+    background-color: #9bfab0;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.game-info {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    color: white;
+}
+
+.game-info li {
+    margin-bottom: 0.5rem;
+}
+
+
+.tabs-container {
+    margin-top: 2rem;
+    background-color: #2f2c79;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab-link {
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #ffffff;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.tab-content {
+    display: none;
+    padding: 1rem 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.tab-content.active-content {
+    display: block;
+}
+
+.c_logo {
+    max-width: 50px;
+    max-height: 200px;
+    left: 40px;
+    position: absolute;
+    top: 10px;
+}
+
+.footer {
+    background-color: #9bfab0;
+    padding: 20px 0;
+    color: #000000;
+    text-align: center;
+    margin-top: 40px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    height: 140px;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
